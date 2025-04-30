@@ -22,6 +22,9 @@ ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
 kotlin_reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect", version.ref = "kotlin" }
 kotlin_test_junit5 = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit5", version.ref = "kotlin" }
 
+# Jakarta Libraries Validation
+jakarta_validation = { group = "jakarta.validation", name = "jakarta.validation-api" }
+
 # Spring Libraries
 spring_boot_starter_web = { group = "org.springframework.boot", name = "spring-boot-starter-web", version.ref = "spring_boot" }
 spring_boot_starter_data_jpa = { group = "org.springframework.boot", name = "spring-boot-starter-data-jpa", version.ref = "spring_boot" }

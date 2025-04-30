@@ -33,6 +33,7 @@ dependencies {
 	implementation(libs.spring.boot.starter.data.jpa)
 	implementation(libs.spring.boot.starter.data.jdbc)
 	implementation(libs.spring.boot.starter.actuator)
+	implementation(libs.jakarta.validation)
 
 	// Libraries
 	implementation(libs.jackson.kotlin)
